@@ -40,7 +40,7 @@ typedef struct YGCachedMeasurement {
   float computedHeight;
 } YGCachedMeasurement;
 
-// This value was chosen based on empiracle data. Even the most complicated
+// This value was chosen based on empirical data. Even the most complicated
 // layouts should not require more than 16 entries to fit within the cache.
 #define YG_MAX_CACHED_RESULT_COUNT 16
 
